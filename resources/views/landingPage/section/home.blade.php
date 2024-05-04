@@ -15,19 +15,19 @@
                 with our clients to turn their vision into <br> reality. Our agile development methodology ensures that
                 projects <br>
                 are delivered on time and on budget, with full transparency <br>throughout the process.</p>
-            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-4 px-4 rounded-xl md:w-1/3 mt-8  ">Contact
+            <button class="bg-button hover:bg-buttonhover text-white font-bold py-4 px-4 rounded-xl md:w-1/3 mt-8  ">Contact
                 Us</button>
         </div>
 
         <!-- Bagian Kanan -->
-        <div class="w-1/2 hidden md:flex">
-            <img src="{{ asset('images/home-image1.png') }}" alt="Your Image" class="w-5/6 ml-32">
+        <div class="w-1/2 hidden md:flex md:justify-center">
+            <img src="{{ asset('images/home-image1.png') }}" alt="Your Image" class="w-5/6 m-auto">
         </div>
 
     </div>
 
     {{-- <------------------- About Us --------------------> --}}
-    <div class="bg-gray-200 justify-center items-center text-center pt-24 pb-48">
+    <div class="bg-primary justify-center items-center text-center pt-24 pb-48">
         <div class="wave-headerr">
             <h1 class="md:text-4xl text-2xl font-bold py-5">Who Are We</h1>
             <p class="text-md mt-8 mb-12">Aplikasi Nusantara Inovasi is dedicated to building software solutions that drive
@@ -36,40 +36,40 @@
                 into
                 applications that deliver results.</p>
         </div>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mx-auto">
+        <div class="grid md:grid-cols-3 gap-6 mx-auto  ">
             <div
-                class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700  mx-auto">
+                class="w-full max-w-sm bg-white border border-primary rounded-lg shadow dark:bg-dark dark:border-dark2  mx-auto">
                 <a href="#">
                     <img src="{{ asset('images/who-image1.png') }}" class="w-1/4 mx-auto py-5" />
                 </a>
             </div>
             <div
-                class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700  mx-auto">
+                class="w-full max-w-sm bg-white border border-primary rounded-lg shadow dark:bg-dark dark:border-dark2  mx-auto">
                 <a href="#">
                     <img src="{{ asset('images/who-image2.png') }}" class="w-1/4 mx-auto py-5" />
                 </a>
             </div>
             <div
-                class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700  mx-auto">
+                class="w-full max-w-sm bg-white border border-primary rounded-lg shadow dark:bg-dark dark:border-dark2  mx-auto">
                 <a href="#">
                     <img src="{{ asset('images/who-image3.png') }}" class="w-1/4 mx-auto py-5" />
                 </a>
             </div>
             <!-- Posisi grid ke kanan -->
             <div
-                class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mx-auto">
+                class="w-full max-w-sm bg-white border border-primary rounded-lg shadow dark:bg-dark dark:border-dark2 mx-auto">
                 <a href="#">
                     <img src="{{ asset('images/who-image4.png') }}" class="w-1/4 mx-auto py-5" />
                 </a>
             </div>
             <div
-                class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mx-auto ">
+                class="w-full max-w-sm bg-white border border-primary rounded-lg shadow dark:bg-dark dark:border-dark2 mx-auto ">
                 <a href="#">
                     <img src="{{ asset('images/who-image5.png') }}" class="w-1/4 mx-auto py-5" />
                 </a>
             </div>
             <div
-                class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700  mx-auto">
+                class="w-full max-w-sm bg-white border border-primary rounded-lg shadow dark:bg-dark dark:border-dark2  mx-auto">
                 <a href="#">
                     <img src="{{ asset('images/who-image6.png') }}" class="w-1/4 mx-auto py-5" />
                 </a>
@@ -90,8 +90,8 @@
                 to-end services that empower your business to thrive in today's digital landscape.</p>
         </div>
         <div class="flex flex-col md:flex-row justify-center mx-auto gap-6 mb-24 px-10 ">
-            <div class="md:w-1/4 w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow py-24 text-center">
-                <div class="rounded-full bg-gray-200 mx-auto pt-10" style="width: 120px; height: 120px;">
+            <div class="md:w-1/4 w-full max-w-sm bg-white border border-primary rounded-lg shadow py-24 text-center">
+                <div class="rounded-full bg-primary mx-auto pt-10" style="width: 120px; height: 120px;">
                     <i class="fa-solid fa-laptop text-5xl text-gray-600"></i>
                 </div>
                 <div>
@@ -102,8 +102,8 @@
                     <br> seamless performance and <br> engaging user experiences.
                 </p>
             </div>
-            <div class="md:w-1/4 w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow py-24 text-center">
-                <div class="rounded-full bg-gray-200 mx-auto pt-10" style="width: 120px; height: 120px;">
+            <div class="md:w-1/4 w-full max-w-sm bg-white border border-primary rounded-lg shadow py-24 text-center">
+                <div class="rounded-full bg-primary mx-auto pt-10" style="width: 120px; height: 120px;">
                     <i class="fa-solid fa-laptop text-5xl text-gray-600"></i>
                 </div>
                 <div>
@@ -114,8 +114,8 @@
 
                 </p>
             </div>
-            <div class="md:w-1/4 w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow py-24 text-center">
-                <div class="rounded-full bg-gray-200 mx-auto pt-10" style="width: 120px; height: 120px;">
+            <div class="md:w-1/4 w-full max-w-sm bg-white border border-primary rounded-lg shadow py-24 text-center">
+                <div class="rounded-full bg-primary mx-auto pt-10" style="width: 120px; height: 120px;">
                     <i class="fa-solid fa-pen-nib text-5xl text-gray-600"></i>
 
                 </div>
@@ -127,8 +127,8 @@
 
                 </p>
             </div>
-            <div class="md:w-1/4 w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow py-24 text-center">
-                <div class="rounded-full bg-gray-200 mx-auto pt-10" style="width: 120px; height: 120px;">
+            <div class="md:w-1/4 w-full max-w-sm bg-white border border-primary rounded-lg shadow py-24 text-center">
+                <div class="rounded-full bg-primary mx-auto pt-10" style="width: 120px; height: 120px;">
 
                     <i class="fa-solid fa-database text-5xl text-gray-600"></i>
                 </div>
@@ -223,7 +223,7 @@
         </div>
         <div class="flex flex-col md:flex-row justify-center items-center gap-6">
             <div
-                class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                class="w-full max-w-sm bg-white border border-primary rounded-lg shadow dark:bg-dark dark:border-dark2">
                 <div class="flex flex-col items-center pb-10 pt-10">
                     <img class="w-24 h-24 mb-3 rounded-full shadow-lg" src="{{ asset('images/testi-image1.jpg') }}"
                         alt="Bonnie image" />
@@ -237,7 +237,7 @@
                                     d="M6 0H2a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4v1a3 3 0 0 1-3 3H2a1 1 0 0 0 0 2h1a5.006 5.006 0 0 0 5-5V2a2 2 0 0 0-2-2Zm10 0h-4a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4v1a3 3 0 0 1-3 3h-1a1 1 0 0 0 0 2h1a5.006 5.006 0 0 0 5-5V2a2 2 0 0 0-2-2Z" />
                             </svg>
                         </div>
-                        <p class="text-gray-700 dark:text-gray-300 italic pr-4">"Kutipan Anda di sini. &#128525; &#128525;"
+                        <p class="text-dark2 dark:text-gray-300 italic pr-4">"Kutipan Anda di sini. &#128525; &#128525;"
                         </p>
                         <svg class="w-5 h-5 text-gray-400 dark:text-gray-600 mb-4" aria-hidden="true"
                             xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 18 14">
@@ -250,7 +250,7 @@
 
 
             <div
-                class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                class="w-full max-w-sm bg-white border border-primary rounded-lg shadow dark:bg-dark dark:border-dark2">
                 <div class="flex flex-col items-center pb-10 pt-10">
                     <img class="w-24 h-24 mb-3 rounded-full shadow-lg" src="{{ asset('images/testi-image1.jpg') }}"
                         alt="Bonnie image" />
@@ -264,7 +264,7 @@
                                     d="M6 0H2a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4v1a3 3 0 0 1-3 3H2a1 1 0 0 0 0 2h1a5.006 5.006 0 0 0 5-5V2a2 2 0 0 0-2-2Zm10 0h-4a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4v1a3 3 0 0 1-3 3h-1a1 1 0 0 0 0 2h1a5.006 5.006 0 0 0 5-5V2a2 2 0 0 0-2-2Z" />
                             </svg>
                         </div>
-                        <p class="text-gray-700 dark:text-gray-300 italic pr-4">"Kutipan Anda di sini. &#128525; &#128525;"
+                        <p class="text-dark2 dark:text-gray-300 italic pr-4">"Kutipan Anda di sini. &#128525; &#128525;"
                         </p>
                         <svg class="w-5 h-5 text-gray-400 dark:text-gray-600 mb-4" aria-hidden="true"
                             xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 18 14">
@@ -275,7 +275,7 @@
                 </div>
             </div>
             <div
-                class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                class="w-full max-w-sm bg-white border border-primary rounded-lg shadow dark:bg-dark dark:border-dark2">
                 <div class="flex flex-col items-center pb-10 pt-10">
                     <img class="w-24 h-24 mb-3 rounded-full shadow-lg" src="{{ asset('images/testi-image1.jpg') }}"
                         alt="Bonnie image" />
@@ -289,7 +289,7 @@
                                     d="M6 0H2a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4v1a3 3 0 0 1-3 3H2a1 1 0 0 0 0 2h1a5.006 5.006 0 0 0 5-5V2a2 2 0 0 0-2-2Zm10 0h-4a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4v1a3 3 0 0 1-3 3h-1a1 1 0 0 0 0 2h1a5.006 5.006 0 0 0 5-5V2a2 2 0 0 0-2-2Z" />
                             </svg>
                         </div>
-                        <p class="text-gray-700 dark:text-gray-300 italic pr-4">"Kutipan Anda di sini. &#128525; &#128525;"
+                        <p class="text-dark2 dark:text-gray-300 italic pr-4">"Kutipan Anda di sini. &#128525; &#128525;"
                         </p>
                         <svg class="w-5 h-5 text-gray-400 dark:text-gray-600 mb-4" aria-hidden="true"
                             xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 18 14">
