@@ -28,6 +28,7 @@
 
     </div>
     {{-- <------------------- About Us --------------------> --}}
+    <div>
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#e5e7eb" fill-opacity="1" d="M0,192L80,202.7C160,213,320,235,480,224C640,213,800,171,960,154.7C1120,139,1280,149,1360,154.7L1440,160L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path></svg>
     <div class="bg-primary justify-center items-center text-center pt-24 pb-48">
         <div class="wave-headerr">
@@ -79,6 +80,7 @@
         </div>
     </div>
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#e5e7eb" fill-opacity="1" d="M0,192L80,202.7C160,213,320,235,480,224C640,213,800,171,960,154.7C1120,139,1280,149,1360,154.7L1440,160L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"></path></svg>
+</div>
     {{-- <------------------- About Us --------------------> --}}
 
     {{-- <------------------- Services --------------------> --}}
@@ -307,7 +309,10 @@
 
 
     {{-- <------------------- Footer --------------------> --}}
+    <div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#D9D9D9" fill-opacity="1" d="M0,192L80,202.7C160,213,320,235,480,224C640,213,800,171,960,154.7C1120,139,1280,149,1360,154.7L1440,160L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path></svg>
     <footer class="py-24 text-center bg-[#D9D9D9]">
+        
         <!-- Logo -->
         <div class="mb-8">
             <img src="{{ asset('images/logo.png') }}" class="w-24 mx-auto" alt="Logo">
@@ -333,6 +338,7 @@
         <!-- Copyright -->
         <p class="text-sm text-gray-600">© Copyright 2024 - All rights reserved.</p>
     </footer>
+</div>
     {{-- <------------------- Footer --------------------> --}}
 
 
