@@ -222,8 +222,7 @@
                 our clients' <br>expectations. Here's what some of our clients have to say about working with us:</p>
         </div>
         <div class="flex flex-col md:flex-row justify-center items-center gap-6">
-            <div
-                class="w-full max-w-sm bg-white border border-primary rounded-lg shadow dark:bg-dark dark:border-dark2">
+            <div class="w-full max-w-sm bg-white border border-primary rounded-lg shadow dark:bg-dark dark:border-dark2">
                 <div class="flex flex-col items-center pb-10 pt-10">
                     <img class="w-24 h-24 mb-3 rounded-full shadow-lg" src="{{ asset('images/testi-image1.jpg') }}"
                         alt="Bonnie image" />
@@ -249,8 +248,7 @@
             </div>
 
 
-            <div
-                class="w-full max-w-sm bg-white border border-primary rounded-lg shadow dark:bg-dark dark:border-dark2">
+            <div class="w-full max-w-sm bg-white border border-primary rounded-lg shadow dark:bg-dark dark:border-dark2">
                 <div class="flex flex-col items-center pb-10 pt-10">
                     <img class="w-24 h-24 mb-3 rounded-full shadow-lg" src="{{ asset('images/testi-image1.jpg') }}"
                         alt="Bonnie image" />
@@ -274,8 +272,7 @@
                     </div>
                 </div>
             </div>
-            <div
-                class="w-full max-w-sm bg-white border border-primary rounded-lg shadow dark:bg-dark dark:border-dark2">
+            <div class="w-full max-w-sm bg-white border border-primary rounded-lg shadow dark:bg-dark dark:border-dark2">
                 <div class="flex flex-col items-center pb-10 pt-10">
                     <img class="w-24 h-24 mb-3 rounded-full shadow-lg" src="{{ asset('images/testi-image1.jpg') }}"
                         alt="Bonnie image" />
@@ -305,6 +302,36 @@
     </div>
 
     {{-- <------------------- Testimonials  --------------------> --}}
+
+
+    {{-- <------------------- Footer --------------------> --}}
+    <footer class="py-24 text-center bg-[#D9D9D9]">
+        <!-- Logo -->
+        <div class="mb-8">
+            <img src="{{ asset('images/logo.png') }}" class="w-24 mx-auto" alt="Logo">
+        </div>
+
+        <!-- Menu -->
+        <nav class="mb-8">
+            <a href="#" class="text-gray-600 hover:text-gray-900 mx-2">Home</a>
+            <a href="#" class="text-gray-600 hover:text-gray-900 mx-2">About Us</a>
+            <a href="#" class="text-gray-600 hover:text-gray-900 mx-2">Services</a>
+            <a href="#" class="text-gray-600 hover:text-gray-900 mx-2">FAQ</a>
+            <a href="#" class="text-gray-600 hover:text-gray-900 mx-2">Testimonials</a>
+        </nav>
+
+        <!-- Social Icons -->
+        <div class="mb-8">
+            <a href="#" class="text-gray-600 hover:text-gray-900 mx-2"><i class="fa-solid fa-envelope"></i></a>
+            <a href="#" class="text-gray-600 hover:text-gray-900 mx-2"><i class="fas fa-phone"></i></a>
+            <a href="#" class="text-gray-600 hover:text-gray-900 mx-2"><i class="fab fa-linkedin"></i></a>
+            <a href="#" class="text-gray-600 hover:text-gray-900 mx-2"><i class="fab fa-instagram"></i></a>
+        </div>
+
+        <!-- Copyright -->
+        <p class="text-sm text-gray-600">© Copyright 2024 - All rights reserved.</p>
+    </footer>
+    {{-- <------------------- Footer --------------------> --}}
 
 
 
