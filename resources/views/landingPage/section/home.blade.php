@@ -22,55 +22,63 @@
     <div class="w-1/2 hidden md:flex md:justify-center">
         <img src="{{ asset('images/home-image1.png') }}" alt="Your Image" class="w-5/6 m-auto">
     </div>
+        {{-- Wavey end --}}
+        
 
-</div>
-
-{{-- <------------------- About Us --------------------> --}}
-<div class="bg-tcolor2 justify-center items-center text-center pt-24 pb-48">
-    <div class="wave-headerr">
-        <h1 class="md:text-4xl text-2xl font-bold py-5 text-darkui">Who Are We</h1>
-        <p class="text-md mt-8 mb-12 text-darkui">Aplikasi Nusantara Inovasi is dedicated to building software solutions that drive
-            your <br>business forward. With
-            our expertise and passion for technology, we transform ideas <br> into powerful, scalable designs which turn
-            into
-            applications that deliver results.</p>
-    </div>
-    <div class="grid md:grid-cols-3 gap-6 mx-auto">
-        <div class="w-full max-w-sm bg-white border border-primary rounded-lg shadow dark:bg-dark dark:border-dark2  mx-auto">
-            <a href="#">
-                <img src="{{ asset('images/who-image1.png') }}" class="w-1/4 mx-auto py-5" />
-            </a>
-        </div>
-        <div class="w-full max-w-sm bg-white border border-primary rounded-lg shadow dark:bg-dark dark:border-dark2  mx-auto">
-            <a href="#">
-                <img src="{{ asset('images/who-image2.png') }}" class="w-1/4 mx-auto py-5" />
-            </a>
-        </div>
-        <div class="w-full max-w-sm bg-white border border-primary rounded-lg shadow dark:bg-dark dark:border-dark2  mx-auto">
-            <a href="#">
-                <img src="{{ asset('images/who-image3.png') }}" class="w-1/4 mx-auto py-5" />
-            </a>
-        </div>
-        <!-- Posisi grid ke kanan -->
-        <div class="w-full max-w-sm bg-white border border-primary rounded-lg shadow dark:bg-dark dark:border-dark2  mx-auto">
-            <a href="#">
-                <img src="{{ asset('images/who-image4.png') }}" class="w-1/4 mx-auto py-5" />
-            </a>
-        </div>
-        <div class="w-full max-w-sm bg-white border border-primary rounded-lg shadow dark:bg-dark dark:border-dark2  mx-auto">
-            <a href="#">
-                <img src="{{ asset('images/who-image5.png') }}" class="w-1/4 mx-auto py-5" />
-            </a>
-        </div>
-        <div class="w-full max-w-sm bg-white border border-primary rounded-lg shadow dark:bg-dark dark:border-dark2  mx-auto">
-            <a href="#">
-                <img src="{{ asset('images/who-image6.png') }}" class="w-1/4 mx-auto py-5" />
-            </a>
-        </div>
     </div>
 
-</div>
-{{-- <------------------- About Us --------------------> --}}
+    {{-- <------------------- About Us --------------------> --}}
+    <div class="bg-primary justify-center items-center text-center pt-24 pb-48">
+        <div class="wave-headerr">
+            <h1 class="md:text-4xl text-2xl font-bold py-5">Who Are We</h1>
+            <p class="text-md mt-8 mb-12">Aplikasi Nusantara Inovasi is dedicated to building software solutions that drive
+                your <br>business forward. With
+                our expertise and passion for technology, we transform ideas <br> into powerful, scalable designs which turn
+                into
+                applications that deliver results.</p>
+        </div>
+        <div class="grid md:grid-cols-3 gap-6 mx-auto  ">
+            <div
+                class="w-full max-w-sm bg-white border border-primary rounded-lg shadow dark:bg-dark dark:border-dark2  mx-auto">
+                <a href="#">
+                    <img src="{{ asset('images/who-image1.png') }}" class="w-1/4 mx-auto py-5" />
+                </a>
+            </div>
+            <div
+                class="w-full max-w-sm bg-white border border-primary rounded-lg shadow dark:bg-dark dark:border-dark2  mx-auto">
+                <a href="#">
+                    <img src="{{ asset('images/who-image2.png') }}" class="w-1/4 mx-auto py-5" />
+                </a>
+            </div>
+            <div
+                class="w-full max-w-sm bg-white border border-primary rounded-lg shadow dark:bg-dark dark:border-dark2  mx-auto">
+                <a href="#">
+                    <img src="{{ asset('images/who-image3.png') }}" class="w-1/4 mx-auto py-5" />
+                </a>
+            </div>
+            <!-- Posisi grid ke kanan -->
+            <div
+                class="w-full max-w-sm bg-white border border-primary rounded-lg shadow dark:bg-dark dark:border-dark2 mx-auto">
+                <a href="#">
+                    <img src="{{ asset('images/who-image4.png') }}" class="w-1/4 mx-auto py-5" />
+                </a>
+            </div>
+            <div
+                class="w-full max-w-sm bg-white border border-primary rounded-lg shadow dark:bg-dark dark:border-dark2 mx-auto ">
+                <a href="#">
+                    <img src="{{ asset('images/who-image5.png') }}" class="w-1/4 mx-auto py-5" />
+                </a>
+            </div>
+            <div
+                class="w-full max-w-sm bg-white border border-primary rounded-lg shadow dark:bg-dark dark:border-dark2  mx-auto">
+                <a href="#">
+                    <img src="{{ asset('images/who-image6.png') }}" class="w-1/4 mx-auto py-5" />
+                </a>
+            </div>
+        </div>
+
+    </div>
+    {{-- <------------------- About Us --------------------> --}}
 
 {{-- <------------------- Services --------------------> --}}
 
@@ -282,12 +290,12 @@
 {{-- <------------------- Testimonials  --------------------> --}}
 
 
-{{-- <------------------- Footer --------------------> --}}
-<footer class="py-24 text-center bg-tcolor2">
-    <!-- Logo -->
-    <div class="mb-8">
-        <img src="{{ asset('images/logo.png') }}" class="w-24 mx-auto" alt="Logo">
-    </div>
+    {{-- <------------------- Footer --------------------> --}}
+    <footer class="py-24 text-center bg-[#D9D9D9]">
+        <!-- Logo -->
+        <div class="mb-8">
+            <img src="{{ asset('images/logo.png') }}" class="w-24 mx-auto" alt="Logo">
+        </div>
 
     <!-- Menu -->
     <nav class="mb-8">
@@ -306,10 +314,10 @@
         <a href="#" class="text-darkui hover:text-tcolor mx-2"><i class="fab fa-instagram"></i></a>
     </div>
 
-    <!-- Copyright -->
-    <p class="text-sm text-darkui">© Copyright 2024 - All rights reserved.</p>
-</footer>
-{{-- <------------------- Footer --------------------> --}}
+        <!-- Copyright -->
+        <p class="text-sm text-gray-600">© Copyright 2024 - All rights reserved.</p>
+    </footer>
+    {{-- <------------------- Footer --------------------> --}}
 
 
 
