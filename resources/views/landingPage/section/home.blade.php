@@ -28,6 +28,7 @@
     </div>
 
     {{-- <------------------- About Us --------------------> --}}
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#e5e7eb" fill-opacity="1" d="M0,288L60,250.7C120,213,240,139,360,112C480,85,600,107,720,144C840,181,960,235,1080,256C1200,277,1320,267,1380,261.3L1440,256L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path></svg>
     <div class="bg-primary justify-center items-center text-center pt-24 pb-48">
         <div class="wave-headerr">
             <h1 class="md:text-4xl text-2xl font-bold py-5">Who Are We</h1>
@@ -53,31 +54,32 @@
             <div
                 class="w-full max-w-md bg-white border border-primary rounded-lg shadow dark:bg-dark dark:border-dark2  mx-auto">
                 <a href="#">
-                    <img src="{{ asset('images/who-image3.png') }}" class="w-1/2  mx-auto py-5" />
+                    <img src="{{ asset('images/who-image3.png') }}" class="w-1/2 h-auto  mx-auto py-5" />
                 </a>
             </div>
             <!-- Posisi grid ke kanan -->
             <div
                 class="w-full max-w-md max-h-md h-full bg-white border border-primary rounded-lg shadow dark:bg-dark dark:border-dark2 mx-auto">
                 <a href="#">
-                    <img src="{{ asset('images/who-image4.png') }}" class="w-1/2 mx-auto py-5" />
+                    <img src="{{ asset('images/who-image4.png') }}" class="w-full h-auto mx-auto py-5" />
                 </a>
             </div>
             <div
                 class="w-full max-w-md max-h-md h-full bg-white border border-primary rounded-lg shadow dark:bg-dark dark:border-dark2 mx-auto ">
                 <a href="#">
-                    <img src="{{ asset('images/who-image5.png') }}" class="w-1/2   mx-auto py-5" />
+                    <img src="{{ asset('images/who-image5.png') }}" class="w-full h-auto  mx-auto py-5" />
                 </a>
             </div>
             <div
                 class="w-full max-w-md max-h-md h-full bg-white border border-primary rounded-lg shadow dark:bg-dark dark:border-dark2  mx-auto">
                 <a href="#">
-                    <img src="{{ asset('images/who-image6.png') }}" class="w-1/2  mx-auto py-5" />
+                    <img src="{{ asset('images/who-image6.png') }}" class="w-full h-auto  mx-auto py-5" />
                 </a>
             </div>
         </div>
 
     </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#e5e7eb" fill-opacity="1" d="M0,288L60,250.7C120,213,240,139,360,112C480,85,600,107,720,144C840,181,960,235,1080,256C1200,277,1320,267,1380,261.3L1440,256L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"></path></svg>
     {{-- <------------------- About Us --------------------> --}}
 
 {{-- <------------------- Services --------------------> --}}
@@ -149,7 +151,7 @@
 
 {{-- <------------------- Product  --------------------> --}}
 
-
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#C4DEE3" fill-opacity="1" d="M0,288L60,250.7C120,213,240,139,360,112C480,85,600,107,720,144C840,181,960,235,1080,256C1200,277,1320,267,1380,261.3L1440,256L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path></svg>
 <div class=" pt-24 pb-48 bg-tcolor2">
     <div class=" wave-headerr justify-center text-center">
         <h1 class="text-2xl font-bold py-5 text-darkui">Our Product</h1>
@@ -178,10 +180,8 @@
                 between academic needs and daily lifestyle.</p>
         </div>
     </div>
-
-
-
 </div>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#C4DEE3" fill-opacity="1" d="M0,288L60,250.7C120,213,240,139,360,112C480,85,600,107,720,144C840,181,960,235,1080,256C1200,277,1320,267,1380,261.3L1440,256L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"></path></svg>
 
 {{-- <------------------- Product  --------------------> --}}
 
@@ -289,7 +289,7 @@
 
 {{-- <------------------- Testimonials  --------------------> --}}
 
-
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#D9D9D9" fill-opacity="1" d="M0,288L60,250.7C120,213,240,139,360,112C480,85,600,107,720,144C840,181,960,235,1080,256C1200,277,1320,267,1380,261.3L1440,256L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path></svg>
     {{-- <------------------- Footer --------------------> --}}
     <footer class="py-24 text-center bg-[#D9D9D9]">
         <!-- Logo -->
