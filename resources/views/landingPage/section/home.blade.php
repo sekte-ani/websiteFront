@@ -41,40 +41,40 @@
         </div>
         <div class="grid md:grid-cols-3 gap-6 mx-auto  ">
             <div
-                class="w-full max-w-sm bg-white border border-primary rounded-lg shadow dark:bg-dark dark:border-dark2  mx-auto">
+                class="w-full max-w-md bg-white border border-primary rounded-lg shadow dark:bg-dark dark:border-dark2  mx-auto">
                 <a href="#">
-                    <img src="{{ asset('images/who-image1.png') }}" class="w-1/4 mx-auto py-5" />
+                    <img src="{{ asset('images/who-image1.png') }}" class="w-1/2  mx-auto py-5" />
                 </a>
             </div>
             <div
-                class="w-full max-w-sm bg-white border border-primary rounded-lg shadow dark:bg-dark dark:border-dark2  mx-auto">
+                class="w-full max-w-md bg-white border border-primary rounded-lg shadow dark:bg-dark dark:border-dark2  mx-auto">
                 <a href="#">
-                    <img src="{{ asset('images/who-image2.png') }}" class="w-1/4 mx-auto py-5" />
+                    <img src="{{ asset('images/who-image2.png') }}" class="w-1/2  mx-auto py-5" />
                 </a>
             </div>
             <div
-                class="w-full max-w-sm bg-white border border-primary rounded-lg shadow dark:bg-dark dark:border-dark2  mx-auto">
+                class="w-full max-w-md bg-white border border-primary rounded-lg shadow dark:bg-dark dark:border-dark2  mx-auto">
                 <a href="#">
-                    <img src="{{ asset('images/who-image3.png') }}" class="w-1/4 mx-auto py-5" />
+                    <img src="{{ asset('images/who-image3.png') }}" class="w-1/2  mx-auto py-5" />
                 </a>
             </div>
             <!-- Posisi grid ke kanan -->
             <div
-                class="w-full max-w-sm bg-white border border-primary rounded-lg shadow dark:bg-dark dark:border-dark2 mx-auto">
+                class="w-full max-w-md max-h-md h-full bg-white border border-primary rounded-lg shadow dark:bg-dark dark:border-dark2 mx-auto">
                 <a href="#">
-                    <img src="{{ asset('images/who-image4.png') }}" class="w-1/4 mx-auto py-5" />
+                    <img src="{{ asset('images/who-image4.png') }}" class="w-1/2 mx-auto py-5" />
                 </a>
             </div>
             <div
-                class="w-full max-w-sm bg-white border border-primary rounded-lg shadow dark:bg-dark dark:border-dark2 mx-auto ">
+                class="w-full max-w-md max-h-md h-full bg-white border border-primary rounded-lg shadow dark:bg-dark dark:border-dark2 mx-auto ">
                 <a href="#">
-                    <img src="{{ asset('images/who-image5.png') }}" class="w-1/4 mx-auto py-5" />
+                    <img src="{{ asset('images/who-image5.png') }}" class="w-1/2   mx-auto py-5" />
                 </a>
             </div>
             <div
-                class="w-full max-w-sm bg-white border border-primary rounded-lg shadow dark:bg-dark dark:border-dark2  mx-auto">
+                class="w-full max-w-md max-h-md h-full bg-white border border-primary rounded-lg shadow dark:bg-dark dark:border-dark2  mx-auto">
                 <a href="#">
-                    <img src="{{ asset('images/who-image6.png') }}" class="w-1/4 mx-auto py-5" />
+                    <img src="{{ asset('images/who-image6.png') }}" class="w-1/2  mx-auto py-5" />
                 </a>
             </div>
         </div>
