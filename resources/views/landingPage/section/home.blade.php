@@ -194,9 +194,9 @@
     </div>
     <div class="flex items-center justify-between p-8  ">
         <!-- Sisi kiri (gambar) -->
-        <div class="md:w-1/2 md:mr-4 text-left md:px-36 w-full">
+        <div class="md:w-1/2 md:mr-2 text-left md:px-24 w-full">
 
-            <h1 class="text-left text-6xl text-tcolor1"><span class="text-primary2">F</span>requently <br> <span class="text-primary2">A</span>sked <br><span class="text-primary2">Q</span>uestions</h1>
+            <h1 class="text-left text-6xl text-tcolor1 font-semibold"><span class="text-primary2">F</span>requently <br> <span class="text-primary2">A</span>sked <br><span class="text-primary2">Q</span>uestions</h1>
             <div class="mt-12">
 
                 <p class="text-darkui">We strive to provide quick answers to your questions. If you <br> can't find what you're looking
@@ -204,8 +204,64 @@
             </div>
         </div>
         <!-- Sisi kanan (teks) -->
-        <div class="md:flex hidden md:w-1/2">
-
+        <div class="md:flex hidden md:w-1/2 md:mr-5">
+            <div class="md:w-1/2 w-full flex flex-col p-5">
+                <div class="flex flex-col">
+                    <div class="border-tcolor1 border-2 bg-white p-2 mb-2 rounded-md flex flex-row justify-between">
+                        <h3>What type of development service do you offer ?</h3>
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M19.0003 13.83C19.0008 13.6806 18.9678 13.533 18.9038 13.3981C18.8398 13.2631 18.7463 13.1442 18.6303 13.05L12.6303 8.22004C12.4513 8.07296 12.2269 7.99255 11.9953 7.99255C11.7637 7.99255 11.5392 8.07296 11.3603 8.22004L5.36028 13.22C5.15606 13.3898 5.02763 13.6337 5.00325 13.8981C4.97888 14.1625 5.06054 14.4258 5.23028 14.63C5.40001 14.8343 5.64393 14.9627 5.90835 14.9871C6.17278 15.0114 6.43606 14.9298 6.64028 14.76L12.0003 10.29L17.3603 14.61C17.5071 14.7323 17.6858 14.81 17.8753 14.8339C18.0649 14.8578 18.2573 14.8268 18.4299 14.7448C18.6024 14.6627 18.7478 14.533 18.8489 14.3709C18.95 14.2088 19.0025 14.0211 19.0003 13.83Z" fill="#4C9DAE"/>
+                            </svg>
+                    </div>
+                    <div class="border-tcolor1 border-2 bg-white p-2 mb-2 rounded-md flex hidden">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui alias, hic repellendus aliquid nulla ducimus voluptates. Ratione nobis, officia sapiente reprehenderit voluptatibus quaerat reiciendis illo, earum, eveniet aspernatur laboriosam deserunt et quia atque dolorem voluptate enim repellat totam incidunt. Repellat.</p>
+                    </div>
+                </div>
+                <div class="flex flex-col">
+                    <div class="border-tcolor1 border-2 bg-primary2 p-2 mb-2 rounded-md flex flex-row justify-between">
+                        <h3>What type of development service do you offer ?</h3>
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M19.0003 13.83C19.0008 13.6806 18.9678 13.533 18.9038 13.3981C18.8398 13.2631 18.7463 13.1442 18.6303 13.05L12.6303 8.22004C12.4513 8.07296 12.2269 7.99255 11.9953 7.99255C11.7637 7.99255 11.5392 8.07296 11.3603 8.22004L5.36028 13.22C5.15606 13.3898 5.02763 13.6337 5.00325 13.8981C4.97888 14.1625 5.06054 14.4258 5.23028 14.63C5.40001 14.8343 5.64393 14.9627 5.90835 14.9871C6.17278 15.0114 6.43606 14.9298 6.64028 14.76L12.0003 10.29L17.3603 14.61C17.5071 14.7323 17.6858 14.81 17.8753 14.8339C18.0649 14.8578 18.2573 14.8268 18.4299 14.7448C18.6024 14.6627 18.7478 14.533 18.8489 14.3709C18.95 14.2088 19.0025 14.0211 19.0003 13.83Z" fill="#4C9DAE"/>
+                            </svg>
+                    </div>
+                    <div class="border-tcolor1 border-2 bg-primary2 p-2 mb-2 rounded-md flex">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui alias, hic repellendus aliquid nulla ducimus voluptates. Ratione nobis, officia sapiente reprehenderit voluptatibus quaerat reiciendis illo, earum, eveniet aspernatur laboriosam deserunt et quia atque dolorem voluptate enim repellat totam incidunt. Repellat.</p>
+                    </div>
+                </div>
+                <div class="flex flex-col">
+                    <div class="border-tcolor1 border-2 bg-white p-2 mb-2 rounded-md flex flex-row justify-between">
+                        <h3>What type of development service do you offer ?</h3>
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M19.0003 13.83C19.0008 13.6806 18.9678 13.533 18.9038 13.3981C18.8398 13.2631 18.7463 13.1442 18.6303 13.05L12.6303 8.22004C12.4513 8.07296 12.2269 7.99255 11.9953 7.99255C11.7637 7.99255 11.5392 8.07296 11.3603 8.22004L5.36028 13.22C5.15606 13.3898 5.02763 13.6337 5.00325 13.8981C4.97888 14.1625 5.06054 14.4258 5.23028 14.63C5.40001 14.8343 5.64393 14.9627 5.90835 14.9871C6.17278 15.0114 6.43606 14.9298 6.64028 14.76L12.0003 10.29L17.3603 14.61C17.5071 14.7323 17.6858 14.81 17.8753 14.8339C18.0649 14.8578 18.2573 14.8268 18.4299 14.7448C18.6024 14.6627 18.7478 14.533 18.8489 14.3709C18.95 14.2088 19.0025 14.0211 19.0003 13.83Z" fill="#4C9DAE"/>
+                            </svg>
+                    </div>
+                    <div class="border-tcolor1 border-2 bg-white p-2 mb-2 rounded-md flex hidden">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui alias, hic repellendus aliquid nulla ducimus voluptates. Ratione nobis, officia sapiente reprehenderit voluptatibus quaerat reiciendis illo, earum, eveniet aspernatur laboriosam deserunt et quia atque dolorem voluptate enim repellat totam incidunt. Repellat.</p>
+                    </div>
+                </div>
+                <div class="flex flex-col">
+                    <div class="border-tcolor1 border-2 bg-white p-2 mb-2 rounded-md flex flex-row justify-between">
+                        <h3>What type of development service do you offer ?</h3>
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M19.0003 13.83C19.0008 13.6806 18.9678 13.533 18.9038 13.3981C18.8398 13.2631 18.7463 13.1442 18.6303 13.05L12.6303 8.22004C12.4513 8.07296 12.2269 7.99255 11.9953 7.99255C11.7637 7.99255 11.5392 8.07296 11.3603 8.22004L5.36028 13.22C5.15606 13.3898 5.02763 13.6337 5.00325 13.8981C4.97888 14.1625 5.06054 14.4258 5.23028 14.63C5.40001 14.8343 5.64393 14.9627 5.90835 14.9871C6.17278 15.0114 6.43606 14.9298 6.64028 14.76L12.0003 10.29L17.3603 14.61C17.5071 14.7323 17.6858 14.81 17.8753 14.8339C18.0649 14.8578 18.2573 14.8268 18.4299 14.7448C18.6024 14.6627 18.7478 14.533 18.8489 14.3709C18.95 14.2088 19.0025 14.0211 19.0003 13.83Z" fill="#4C9DAE"/>
+                            </svg>
+                    </div>
+                    <div class="border-tcolor1 border-2 bg-white p-2 mb-2 rounded-md flex hidden">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui alias, hic repellendus aliquid nulla ducimus voluptates. Ratione nobis, officia sapiente reprehenderit voluptatibus quaerat reiciendis illo, earum, eveniet aspernatur laboriosam deserunt et quia atque dolorem voluptate enim repellat totam incidunt. Repellat.</p>
+                    </div>
+                </div>
+                <div class="flex flex-col">
+                    <div class="border-tcolor1 border-2 bg-white p-2 mb-2 rounded-md flex flex-row justify-between">
+                        <h3>What type of development service do you offer ?</h3>
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M19.0003 13.83C19.0008 13.6806 18.9678 13.533 18.9038 13.3981C18.8398 13.2631 18.7463 13.1442 18.6303 13.05L12.6303 8.22004C12.4513 8.07296 12.2269 7.99255 11.9953 7.99255C11.7637 7.99255 11.5392 8.07296 11.3603 8.22004L5.36028 13.22C5.15606 13.3898 5.02763 13.6337 5.00325 13.8981C4.97888 14.1625 5.06054 14.4258 5.23028 14.63C5.40001 14.8343 5.64393 14.9627 5.90835 14.9871C6.17278 15.0114 6.43606 14.9298 6.64028 14.76L12.0003 10.29L17.3603 14.61C17.5071 14.7323 17.6858 14.81 17.8753 14.8339C18.0649 14.8578 18.2573 14.8268 18.4299 14.7448C18.6024 14.6627 18.7478 14.533 18.8489 14.3709C18.95 14.2088 19.0025 14.0211 19.0003 13.83Z" fill="#4C9DAE"/>
+                            </svg>
+                    </div>
+                    <div class="border-tcolor1 border-2 bg-white p-2 mb-2 rounded-md flex hidden">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui alias, hic repellendus aliquid nulla ducimus voluptates. Ratione nobis, officia sapiente reprehenderit voluptatibus quaerat reiciendis illo, earum, eveniet aspernatur laboriosam deserunt et quia atque dolorem voluptate enim repellat totam incidunt. Repellat.</p>
+                    </div>
+                </div>
+            </div>
 
         </div>
     </div>
