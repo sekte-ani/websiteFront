@@ -14,3 +14,6 @@
     background-color: black; /* Sesuaikan dengan warna latar belakang Anda */
     border-radius: 50%;
 }
+.content-card {
+    display: none;
+}
